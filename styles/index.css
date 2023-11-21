@@ -131,8 +131,22 @@ a {
     justify-content: space-around;
 }
 
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    padding: 0 var(--container-space);
+}
+
 .wrapper-logo {
     padding: 30px 0;
+}
+
+.wrapper-call {
+    padding: 0 var(--container-space);
 }
 
 .logo p {
@@ -186,6 +200,7 @@ a {
     gap: 22px 20px;
     justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -274,12 +289,13 @@ input {
     width: 25%;
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 30px 10px;
     background-color: var(--white);
 }
 
 .card-icon:not(:last-child) {
     border-right: 1px solid var(--light-grey);
+    border-bottom: 1px solid var(--light-grey);
 }
 
 .card-icon_img {
@@ -302,7 +318,6 @@ input {
 }
 
 .line2 {
-    width: 1920px;
     border-bottom: 1px solid var(--light-grey);
 }
 
